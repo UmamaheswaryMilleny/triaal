@@ -3,6 +3,7 @@
 const Hero = () => {
 
     return (
+      
       <section id="hero" className="h-screen flex items-center justify-center bg-[url('/heart-bg.jpg')] bg-cover bg-center">
         
 
