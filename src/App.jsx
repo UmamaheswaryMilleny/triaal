@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import SplitText from "./react-bits/SplitText/SplitText";
 import SplashCursor from "./react-bits/SplashCursor/SplashCursor";
 import { Meteors } from "@/components/magicui/meteors";
+import { CoverDemo } from "./components/CoverDemo";
 
 function App() {
   const handleAnimationComplete = () => {
@@ -14,6 +15,7 @@ function App() {
   return (
     <div className="font-sans relative overflow-hidden  w-full bg-black text-white
 ">
+  <CoverDemo/>
       <Meteors /> <Navbar />
       <SplashCursor />
       <Hero />
